@@ -6,4 +6,6 @@
 
 📌 <a href="cmp/cmp.go">Compare two items</a>
 
+📌 <a href="in/in.go">Check item in array/slice</a>
+
 🔧 **Generics will be able to solve many cases with types.**
