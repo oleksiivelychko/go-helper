@@ -10,4 +10,6 @@
 
 📌 <a href="matrix/matrix.go">Make a matrix</a>
 
+📌 <a href="pop/pop.go">Pop item by index</a>
+
 🔧 **Generics will be able to solve many cases with types.**
