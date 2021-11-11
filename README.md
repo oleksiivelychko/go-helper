@@ -8,4 +8,6 @@
 
 📌 <a href="in/in.go">Check item in array/slice</a>
 
+📌 <a href="matrix/matrix.go">Make a matrix</a>
+
 🔧 **Generics will be able to solve many cases with types.**
