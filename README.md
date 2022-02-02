@@ -12,4 +12,6 @@
 
 📌 <a href="pop/pop.go">Pop item by index</a>
 
+📌 <a href="str/str.go">String from array</a>
+
 🔧 **Generics will be able to solve many cases with types.**
