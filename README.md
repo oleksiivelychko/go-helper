@@ -15,3 +15,11 @@
 📌 <a href="str/str.go">String from array</a>
 
 🔧 **Generics will be able to solve many cases with types.**
+
+Go user configuration _~/.zprofile_
+```
+export GOPATH=~/.go/gopath
+export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:$GOPATH/bin
+export GO111MODULE=on
+```
