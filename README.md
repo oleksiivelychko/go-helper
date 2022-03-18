@@ -23,3 +23,9 @@ export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:$GOPATH/bin
 export GO111MODULE=on
 ```
+
+Uninstall Go:
+```
+sudo rm -rf /usr/local/go
+sudo rm /etc/paths.d/go
+```
