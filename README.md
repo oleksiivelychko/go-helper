@@ -12,9 +12,9 @@
 
 📌 <a href="pop/pop.go">Pop item by index</a>
 
-📌 <a href="str/str.go">String from array</a>
+📌 <a href="pretty_bytes/pretty_bytes.go">Pretty bytes</a>
 
-🔧 **Generics will be able to solve many cases with types.**
+📌 <a href="str/str.go">String from array</a>
 
 Go user configuration _~/.zprofile_
 ```
