@@ -1,18 +1,27 @@
 package matrix
 
 import (
+	"fmt"
 	"math/rand"
 	"testing"
 )
 
+/**
+https://intellij-support.jetbrains.com/hc/en-us/requests/3913413
+https://intellij-support.jetbrains.com/hc/en-us/requests/3913481
+*/
+
 func TestIntMatrix(t *testing.T) {
 	matrix := IntMatrix(5, 5)
+
 	if len(matrix) != 5 {
-		t.Errorf("[func IntMatrix(rows, cols int) [][]int] -> %d != '5'", len(matrix))
+		t.Errorf("[func IntMatrix[M IMatrix](rows M, cols M) [][]M -> %d != '5'", len(matrix))
 	}
 	if cap(matrix) != 5 {
-		t.Errorf("[func IntMatrix(rows, cols int) [][]int] -> %d != '5'", cap(matrix))
+		t.Errorf("[func IntMatrix[M IMatrix](rows M, cols M) [][]M -> %d != '5'", cap(matrix))
 	}
+
+	fmt.Printf("%#v", matrix)
 }
 
 func BenchmarkIntMatrix(b *testing.B) {

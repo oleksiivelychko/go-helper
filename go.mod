@@ -1,3 +1,3 @@
 module github.com/oleksiivelychko/go-helper
 
-go 1.17
+go 1.18
