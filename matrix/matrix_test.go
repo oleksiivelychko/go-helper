@@ -6,11 +6,6 @@ import (
 	"testing"
 )
 
-/**
-https://intellij-support.jetbrains.com/hc/en-us/requests/3913413
-https://intellij-support.jetbrains.com/hc/en-us/requests/3913481
-*/
-
 func TestIntMatrix(t *testing.T) {
 	matrix := IntMatrix(5, 5)
 
