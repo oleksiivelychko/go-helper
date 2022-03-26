@@ -9,11 +9,14 @@ import (
 func TestIntMatrix(t *testing.T) {
 	matrix := IntMatrix(5, 5)
 
-	if len(matrix) != 5 {
-		t.Errorf("[func IntMatrix[M IMatrix](rows M, cols M) [][]M -> %d != '5'", len(matrix))
+	lenMatrix := len(matrix)
+	capMatrix := cap(matrix)
+
+	if lenMatrix != 5 {
+		t.Errorf("[func IntMatrix[M IMatrix](rows M, cols M) [][]M -> %d != '5'", lenMatrix)
 	}
-	if cap(matrix) != 5 {
-		t.Errorf("[func IntMatrix[M IMatrix](rows M, cols M) [][]M -> %d != '5'", cap(matrix))
+	if capMatrix != 5 {
+		t.Errorf("[func IntMatrix[M IMatrix](rows M, cols M) [][]M -> %d != '5'", capMatrix)
 	}
 
 	fmt.Printf("%#v", matrix)
