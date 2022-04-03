@@ -10,11 +10,11 @@
 
 📌 <a href="env_addr/env_addr.go">Get server address from environment</a>
 
+📌 <a href="echo/echo.go">Echo</a>
+
 📌 <a href="matrix/matrix.go">Make a matrix</a>
 
 📌 <a href="pop/pop.go">Pop item by index</a>
-
-📌 <a href="pretty_bytes/pretty_bytes.go">Pretty bytes</a>
 
 📌 <a href="str/str.go">String from array</a>
 

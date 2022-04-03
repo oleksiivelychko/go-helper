@@ -1,4 +1,4 @@
-package pretty_bytes
+package echo
 
 import (
 	"bytes"
@@ -7,9 +7,9 @@ import (
 	"testing"
 )
 
-func TestPrintPrettyBytesToJSON(t *testing.T) {
+func TestFmtBytes(t *testing.T) {
 	b := []byte(`{"hello":"world"}`)
-	prettyJson := PrettyBytes(b, "	")
+	prettyJson := FmtBytes(b, "	")
 
 	fmt.Printf("%s\n", prettyJson)
 
@@ -19,6 +19,6 @@ func TestPrintPrettyBytesToJSON(t *testing.T) {
 	}
 
 	if buffer.String() != string(b) {
-		t.Errorf("[PrettyBytes(b []byte, indent string) []byte] -> `%s` != `%s`", buffer.String(), b)
+		t.Errorf("[FmtBytes(b []byte, indent string) []byte] -> `%s` != `%s`", buffer.String(), b)
 	}
 }
