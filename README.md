@@ -8,9 +8,9 @@
 
 📌 <a href="in/in.go">Check item in array/slice</a>
 
-📌 <a href="env_addr/env_addr.go">Get server address from environment</a>
+📌 <a href="env/env.go">Get host:port as complete server address from environment</a>
 
-📌 <a href="echo/echo.go">Echo</a>
+📌 <a href="echo/echo.go">Print and format text</a>
 
 📌 <a href="matrix/matrix.go">Make a matrix</a>
 

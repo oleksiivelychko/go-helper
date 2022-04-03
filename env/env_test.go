@@ -1,4 +1,4 @@
-package env_addr
+package env
 
 import (
 	"os"
