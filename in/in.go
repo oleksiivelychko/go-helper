@@ -1,6 +1,6 @@
 package in
 
-func StringIn(array []string, needle string) (int, bool) {
+func In[In comparable](array []In, needle In) (int, bool) {
 	for i, item := range array {
 		if item == needle {
 			return i, true

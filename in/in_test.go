@@ -5,14 +5,14 @@ import "testing"
 var array = []string{"one", "two", "three"}
 
 func TestStringIn(t *testing.T) {
-	index, result := StringIn(array, "one")
+	index, result := In(array, "one")
 	if !result {
-		t.Errorf("[func StringIn(array []string, val string) (int, bool)] -> %d != '0'", index)
+		t.Errorf("[func In[In comparable](array []In, needle In) (int, bool)] -> %d != '0'", index)
 	}
 }
 
 func BenchmarkStringIn(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		StringIn(array, "one")
+		In(array, "one")
 	}
 }
